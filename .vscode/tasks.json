@@ -1,0 +1,43 @@
+{
+  "tasks": [
+    {
+      "type": "cppbuild",
+      "label": "C/C++: g++ Build",
+      "command": "/usr/bin/g++",
+      "args": [
+        "-I",
+        "/usr/local/Cellar/v8/8.7.220.25/libexec",
+        "-I",
+        "/usr/local/Cellar/v8/8.7.220.25/libexec/include",
+        "-luv",
+        "-lv8",
+        "-lv8_libbase",
+        "-lv8_libplatform",
+        "-lv8",
+        "-licuuc",
+        "-licui18n",
+        "-stdlib=libc++",
+        "-L",
+        "/usr/local/Cellar/v8/8.7.220.25/libexec/",
+        "${file}",
+        "-o",
+        "${fileDirname}/${fileBasenameNoExtension}",
+        "-pthread",
+        "-DV8_COMPRESS_POINTERS",
+        "-std=c++14"
+      ],
+      "options": {
+        "cwd": "${workspaceFolder}"
+      },
+      "problemMatcher": [
+        "$gcc"
+      ],
+      "group": {
+        "kind": "build",
+        "isDefault": true
+      },
+      "detail": "Build the executable"
+    }
+  ],
+  "version": "2.0.0"
+}

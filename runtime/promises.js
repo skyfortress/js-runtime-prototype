@@ -1,0 +1,1 @@
+Promise.resolve().then(() => console.log('[Promises] Promise has been resolved!'))
