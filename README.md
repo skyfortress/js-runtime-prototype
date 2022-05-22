@@ -1,6 +1,6 @@
 ## Overview
 
-Prototype of JavaScript runtime heavliy enspired by [Node.js][], based on V8 and LibUV. Project was made only for educational purposes. Could be used as en example of V8 ingtegration into any C++ project.
+Prototype of JavaScript runtime heavliy enspired by [Node.js](https://nodejs.org/), based on [V8](https://v8.dev/) and [LibUV](https://libuv.org/). Project was made only for educational purposes. Could be used as en example of V8 ingtegration into any C++ project.
 
 ## Implemented features
 
